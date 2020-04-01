@@ -18,8 +18,10 @@ A top level test environment (TEST/testtop.vhd) includes:
 
 The test controller architecture constains the testbench as a sequence of transactions.
 
-The link between transactions and BFM components are bidirectionnal record type signals. 
+The link between transactions and a BFM component is a bidirectionnal record type signal. 
+As record type signal is bidirectionnal, the better is to use a resolved type (as std_logic) as record item.
 The record type signals must be initialized at the beginning of the simulation on BFM and test controller side.
+
 
 A Ready/Acknowledge mechanism is needed to synchronise the BFM and transactions. 
 Ready warns the BFM of a pending transaction, Ack(nowledge) closes the current transaction.
