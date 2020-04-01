@@ -1,0 +1,58 @@
+[*]
+[*] GTKWave Analyzer v3.3.68 (w)1999-2016 BSI
+[*] Mon Mar 30 08:36:15 2020
+[*]
+[dumpfile] "D:\Users\thirion2\Documents\FPGA\TLM\SIM\testtop.ghw"
+[dumpfile_mtime] "Mon Mar 30 08:09:59 2020"
+[dumpfile_size] 1888
+[savefile] "D:\Users\thirion2\Documents\FPGA\TLM\SIM\top.gtkw"
+[timestart] 0
+[size] 1920 1018
+[pos] -59 -59
+*-25.711298 73600000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.testtop.
+[treeopen] top.testtop.i_testctrl.
+[treeopen] top.testtop.i_testctrl.cpurec_a.
+[treeopen] top.testtop.i_testctrl.cpurec_b.
+[sst_width] 197
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 481
+@28
+top.testtop.i_testctrl.nrst
+top.testtop.i_dut.wren_b
+top.testtop.i_dut.wren_a
+top.testtop.i_dut.enable_b
+top.testtop.i_dut.enable_a
+top.testtop.i_dut.clock_b
+top.testtop.i_dut.clock_a
+@22
+#{top.testtop.q_a[7:0]} top.testtop.q_a[7] top.testtop.q_a[6] top.testtop.q_a[5] top.testtop.q_a[4] top.testtop.q_a[3] top.testtop.q_a[2] top.testtop.q_a[1] top.testtop.q_a[0]
+#{top.testtop.q_b[7:0]} top.testtop.q_b[7] top.testtop.q_b[6] top.testtop.q_b[5] top.testtop.q_b[4] top.testtop.q_b[3] top.testtop.q_b[2] top.testtop.q_b[1] top.testtop.q_b[0]
+#{top.testtop.data_a[7:0]} top.testtop.data_a[7] top.testtop.data_a[6] top.testtop.data_a[5] top.testtop.data_a[4] top.testtop.data_a[3] top.testtop.data_a[2] top.testtop.data_a[1] top.testtop.data_a[0]
+#{top.testtop.data_b[7:0]} top.testtop.data_b[7] top.testtop.data_b[6] top.testtop.data_b[5] top.testtop.data_b[4] top.testtop.data_b[3] top.testtop.data_b[2] top.testtop.data_b[1] top.testtop.data_b[0]
+@28
+#{top.testtop.address_a[2:0]} top.testtop.address_a[2] top.testtop.address_a[1] top.testtop.address_a[0]
+#{top.testtop.address_b[2:0]} top.testtop.address_b[2] top.testtop.address_b[1] top.testtop.address_b[0]
+@200
+-
+@28
+top.testtop.i_testctrl.cpurec_a.ack
+top.testtop.i_testctrl.cpurec_a.ready
+top.testtop.i_testctrl.cpurec_a.operation
+#{top.testtop.i_testctrl.cpurec_a.address[2:0]} top.testtop.i_testctrl.cpurec_a.address[2] top.testtop.i_testctrl.cpurec_a.address[1] top.testtop.i_testctrl.cpurec_a.address[0]
+@22
+#{top.testtop.i_testctrl.cpurec_a.data[7:0]} top.testtop.i_testctrl.cpurec_a.data[7] top.testtop.i_testctrl.cpurec_a.data[6] top.testtop.i_testctrl.cpurec_a.data[5] top.testtop.i_testctrl.cpurec_a.data[4] top.testtop.i_testctrl.cpurec_a.data[3] top.testtop.i_testctrl.cpurec_a.data[2] top.testtop.i_testctrl.cpurec_a.data[1] top.testtop.i_testctrl.cpurec_a.data[0]
+@200
+-
+@29
+top.testtop.i_testctrl.cpurec_b.ack
+@28
+top.testtop.i_testctrl.cpurec_b.ready
+top.testtop.i_testctrl.cpurec_b.operation
+#{top.testtop.i_testctrl.cpurec_b.address[2:0]} top.testtop.i_testctrl.cpurec_b.address[2] top.testtop.i_testctrl.cpurec_b.address[1] top.testtop.i_testctrl.cpurec_b.address[0]
+@22
+#{top.testtop.i_testctrl.cpurec_b.data[7:0]} top.testtop.i_testctrl.cpurec_b.data[7] top.testtop.i_testctrl.cpurec_b.data[6] top.testtop.i_testctrl.cpurec_b.data[5] top.testtop.i_testctrl.cpurec_b.data[4] top.testtop.i_testctrl.cpurec_b.data[3] top.testtop.i_testctrl.cpurec_b.data[2] top.testtop.i_testctrl.cpurec_b.data[1] top.testtop.i_testctrl.cpurec_b.data[0]
+[pattern_trace] 1
+[pattern_trace] 0
